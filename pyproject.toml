@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "peruse"
+version = "0.0.1"
+authors = [
+  { name="Mardav Gandhi", email="gandhi.mardav@gmail.com" },
+]
+description = "A browser automation library powered by LLMs (local and cloud)"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "playwright>=1.39.0",
+    "openai>=1.0.0",
+    "anthropic>=0.5.0",
+    "ollama>=0.1.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "httpx>=0.24.0",
+    "langchain>=0.2.16",
+    "langchain-community>=0.2.17",
+    "langchain-core>=0.2.41",
+    "langchain-openai>=0.1.25",
+    "langchain-anthropic>=0.1.1",
+    "rich>=10.0.0",
+    "beautifulsoup4>=4.12.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/marcdhi/peruse"
+Issues = "https://github.com/marcdhi/peruse/issues" 
